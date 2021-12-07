@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ブドウ確率判別ツール</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<div id="result">ここに結果が出ます</div>
+
+<form id="generation">
+  <div class="container">
+    <div class="item1">機種</div>
+    <div class="item">
+      <input type="radio" id="six" name="unit" value="240" checked>
+      <label for="six">6号機(B240枚)</label>
+    </div>
+
+    <div class="item">
+      <input type="radio" id="five" name="unit" value="252">
+      <label for="five">5号機(B252枚)</label>
+    </div>
+
+
+  </div>
+</form>
+
+<form id="tech">
+  <div class="container">
+    <div class="item1">チョリ取得率</div>
+    <div class="item">
+      <input type="radio" id="nerau" name="cherry" value="350" checked>
+      <label for="nerau">100%</label>
+    </div>
+
+    <div class="item">
+      <input type="radio" id="dewey" name="cherry" value="525">
+      <label for="dewey">66.6%</label>
+    </div>
+
+  </div>
+
+</form>
+
+
+<div class="container">
+  <label for="play" class="item_t">
+    PLAY
+  </label>
+  <div class="item_i">
+    <input type="number" id="play" name="play" min="0" placeholder="総回転数">
+  </div>
+</div>
+<div class="container">
+  <label for="big" class="item_t">
+    BIG
+  </label>
+  <div class="item_i">
+    <input type="number" id="big" name="big" min="0" placeholder="BIG回数">
+  </div>
+</div>
+<div class="container">
+  <label for="reg" class="item_t">
+    REG
+  </label>
+  <div class="item_i">
+    <input type="number" id="reg" name="reg" min="0" placeholder="バケ回数">
+  </div>
+</div>
+<div class="container">
+  <label for="samai" class="item_t">
+    差枚数
+  </label>
+  <div class="item_i">
+    <input type="number" id="samai" name="samai" placeholder="差枚数">
+  </div>
+</div>
+
+<button id="go">GO</button>
+
+<body>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
