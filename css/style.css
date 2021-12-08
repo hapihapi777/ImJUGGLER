@@ -21,7 +21,7 @@ input {
 }
 
 .puramai {
-  /* text-align: center; */
+  text-align: center;
   font-size: 24px;
   /* height: 30px; */
   /* width: 48px;  */
@@ -74,11 +74,11 @@ input {
 }
 
 .puramai {
-  /* text-align: center; */
+  text-align: center;
   font-size: 24px;
   height: 30px;
   width: 48px; 
-  /* border-radius: 50%; */
+  border-radius: 4px;
 }
 
 .container {
