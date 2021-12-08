@@ -10,19 +10,76 @@ body {
 
 input {
   font-size: 24px;
-  width: 50%;
+  /* width: 45%; */
 }
 
-button {
+.go {
   margin: 12px;
   font-size: 24px;
   cursor: pointer;
   border-radius: 4px;
 }
 
-/* .toumei {
-  color: #cccc;
-} */
+.puramai {
+  /* text-align: center; */
+  font-size: 24px;
+  /* height: 30px; */
+  /* width: 48px;  */
+  /* border-radius: 50%; */
+}
+
+.container {
+  display: flex;
+  /* width: 100%; */
+  flex-direction: row;
+  margin: 8px 8px;
+}
+
+.item {
+  margin-right: 8px;
+  width: 15%;
+}
+
+.item1 {
+  width: 15%;
+}
+
+.item_t {
+  width: 15%;
+}
+
+#caution {
+  font-size: 16px;
+  color: #555;
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+
+#result {
+  /* margin-bottom: 8px; */
+  color: gray;
+}
+
+input {
+  font-size: 24px;
+  width: 45%;
+}
+
+.go {
+  margin: 12px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.puramai {
+  /* text-align: center; */
+  font-size: 24px;
+  height: 30px;
+  width: 48px; 
+  /* border-radius: 50%; */
+}
 
 .container {
   display: flex;
@@ -42,4 +99,11 @@ button {
 
 .item_t {
   width: 25%;
+}
+
+#caution {
+  font-size: 16px;
+  color: #555;
+}
+
 }

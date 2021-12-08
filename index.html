@@ -4,14 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ブドウ確率判別ツール</title>
+  <title>ブドウ確率計算機</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<div id="result">ここに結果が出ます</div>
 
 <form id="generation">
   <div class="container">
-    <div class="item1">機種</div>
+    <div class="item1">機種の選択</div>
     <div class="item">
       <input type="radio" id="six" name="unit" value="240" checked>
       <label for="six">B240枚</label>
@@ -68,16 +67,36 @@
     <input type="number" id="reg" name="reg" min="0" placeholder="バケ回数">
   </div>
 </div>
+
 <div class="container">
   <label for="samai" class="item_t">
     差枚数
   </label>
   <div class="item_i">
+    <!-- <button class="puramai">+</button> -->
     <input type="number" id="samai" name="samai" placeholder="差枚数">
+    <!-- <button class="puramai">-</button> -->
   </div>
+
 </div>
 
-<button id="go">GO</button>
+<div class="container">
+  <label for="samai" class="item_t">
+    <!-- 差枚数 -->
+  </label>
+  <div class="item_i">
+    <button class="puramai" id="plus_b">➕</button>
+    <!-- <input type="number" id="samai" name="samai" placeholder="差枚数"> -->
+    <button class="puramai" id="minus_b">➖</button>
+  </div>
+
+</div>
+<!-- <div id="caution">※マイナスボタンを押すと、差枚数の入力値が正数でもマイナスになります</div> -->
+<div id="caution">※差枚数の入力欄通常モード</div>
+
+<button id="go" class="go">計算</button>
+
+<div id="result">ここに結果が出ます</div>
 
 <body>
 
