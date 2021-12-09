@@ -14,18 +14,34 @@ input {
 }
 
 .go {
+  /* -webkit-appearance: none; */
   margin: 12px;
   font-size: 24px;
   cursor: pointer;
   border-radius: 4px;
+  height: 40px;
+  width: 64px; 
+  color: black;
+  background-color: #ccc;
+  /* border-color: black; */
+  border-radius: 4px;
 }
 
 .puramai {
+  /* -webkit-appearance: none; */
   text-align: center;
   font-size: 24px;
-  /* height: 30px; */
-  /* width: 48px;  */
-  /* border-radius: 50%; */
+  height: 30px;
+  width: 64px; 
+  color: black;
+  background-color: #ccc;
+  /* border-color: black; */
+  border-radius: 4px;
+}
+
+.puramai[disabled]{
+  background:#DCDCDC;
+  cursor:not-allowed; /* 禁止カーソル */
 }
 
 .container {
@@ -67,18 +83,34 @@ input {
 }
 
 .go {
+  -webkit-appearance: none;
   margin: 12px;
   font-size: 24px;
   cursor: pointer;
   border-radius: 4px;
+  height: 40px;
+  width: 64px; 
+  color: black;
+  background-color: #ccc;
+  border-color: black;
+  border-radius: 4px;
 }
 
 .puramai {
+  -webkit-appearance: none;
   text-align: center;
-  font-size: 24px;
+  /* font-size: 24px; */
   height: 30px;
-  width: 48px; 
+  width: 64px; 
+  color: black;
+  background-color: #ccc;
+  /* border-color: black; */
   border-radius: 4px;
+}
+
+.puramai[disabled]{
+  background:#DCDCDC;
+  cursor:not-allowed; /* 禁止カーソル */
 }
 
 .container {
