@@ -86,7 +86,8 @@ input {
 .go {
   -webkit-appearance: none;
   margin: 12px;
-  /* font-size: 24px; */
+  text-align: center;
+  font-size: auto;
   cursor: pointer;
   border-radius: 4px;
   height: 30px;
@@ -100,7 +101,7 @@ input {
 .puramai {
   -webkit-appearance: none;
   text-align: center;
-  /* font-size: 24px; */
+  font-size: auto;
   height: 30px;
   width: 64px; 
   color: black;
