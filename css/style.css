@@ -40,7 +40,8 @@ input {
 }
 
 .puramai[disabled]{
-  background:#DCDCDC;
+  /* background:#DCDCDC; */
+  opacity: 0.5;
   cursor:not-allowed; /* 禁止カーソル */
 }
 
@@ -85,10 +86,10 @@ input {
 .go {
   -webkit-appearance: none;
   margin: 12px;
-  font-size: 24px;
+  /* font-size: 24px; */
   cursor: pointer;
   border-radius: 4px;
-  height: 40px;
+  height: 30px;
   width: 64px; 
   color: black;
   background-color: #ccc;
@@ -109,8 +110,9 @@ input {
 }
 
 .puramai[disabled]{
-  background:#DCDCDC;
-  cursor:not-allowed; /* 禁止カーソル */
+  /* background:#DCDCDC; */
+  opacity: 0.5;
+  cursor: not-allowed; /* 禁止カーソル */
 }
 
 .container {
