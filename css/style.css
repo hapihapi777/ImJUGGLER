@@ -20,7 +20,7 @@ input {
   cursor: pointer;
   border-radius: 4px;
   height: 40px;
-  width: 64px; 
+  width: 96px; 
   color: black;
   background-color: #ccc;
   /* border-color: black; */
@@ -91,7 +91,7 @@ input {
   cursor: pointer;
   border-radius: 4px;
   height: 40px;
-  width: 96px; 
+  width: 128px; 
   color: black;
   background-color: #ccc;
   border-color: black;
