@@ -87,7 +87,7 @@ input {
   -webkit-appearance: none;
   margin: 12px;
   text-align: center;
-  font-size: auto;
+  /* font-size: auto; */
   cursor: pointer;
   border-radius: 4px;
   height: 40px;
@@ -103,10 +103,10 @@ input {
   text-align: center;
   font-size: auto;
   height: 30px;
-  width: 64px; 
+  width: 72px; 
   color: black;
   background-color: #ccc;
-  /* border-color: black; */
+  border-color: black;
   border-radius: 4px;
 }
 
@@ -120,7 +120,7 @@ input {
   display: flex;
   width: 100%;
   flex-direction: row;
-  margin: 8px 8px;
+  margin: 6px 8px;
 }
 
 .item {
